@@ -1,18 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Fetch from './Components/Fetch';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Fetch from "./Components/UnitedState";
+import MyRouter from "./Components/MyRouter";
+import Header from "./Components/Header";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <Fetch/>
-      </header>
+      <Header />
+      <MyRouter />
     </div>
   );
 }

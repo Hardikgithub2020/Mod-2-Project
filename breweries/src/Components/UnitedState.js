@@ -17,7 +17,7 @@ class UnitedState extends React.Component {
 
     return (
       <div>
-        <h1>Brewery in UnitedState</h1>
+        <h3>Breweries in UnitedState</h3>
         <Page/>
       </div>
     );

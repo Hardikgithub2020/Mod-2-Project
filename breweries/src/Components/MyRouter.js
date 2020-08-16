@@ -9,15 +9,15 @@ function MyRouter(props) {
     <Router>
       <div>
         <nav>
-          <ul>
+          <ul type='none' style={{display:"flex"}}>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/">Home |</Link>
             </li>
             <li>
-              <Link to="/UnitedState">UnitedState</Link>
+              <Link to="/UnitedState">United State   |</Link>
             </li>
             <li>
-              <Link to="/State">State</Link>
+              <Link to="/State">State |</Link>
             </li>
           </ul>
         </nav>

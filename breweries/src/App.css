@@ -1,5 +1,25 @@
 .App {
   text-align: center;
+  
+}
+.list{
+  background-color: rgb(248, 107, 12);
+  padding-bottom: 20px;
+  margin: 50px;
+}
+h1{
+  margin-bottom: 0px;
+}
+p {
+  color: rgb(98, 5, 5);
+  margin:0px;
+}
+.main-Header{
+  background-image: url('https://www.miamiandbeaches.com/getmedia/22609c3e-faab-4508-831e-5b3b1e4e0594/Hidden-Gem-Breweries-1440x900.aspx?width=480&height=300&ext=.jpg');
+  background-size: cover;
+  height:500px;
+  background-position: center;
+  color: rgb(255, 232, 217);
 }
 
 .App-logo {
