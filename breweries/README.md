@@ -1,68 +1,95 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Module 2 Final Project
+ 
 
-## Available Scripts
+You must meet all of the following requirements to pass Module 2 Project
 
-In the project directory, you can run:
+Minimum Project Requirements
+Project must be approved by Instructor approval at the start of project week
+Project code is pushed to a public Git repository
+The code should be written in ES6 as much as possible
+Use the create-react-app generator to start your project.
+There should be 2 container components (stateful)
+There should be 5 presentational components (stateless)
+There should be 3 or more routes
+The application must make use of react-router
+Make use of async actions to send data to and receive data from a server
+Your client-side application should handle the display of data with minimal data manipulation
+ Uses CSS or styled components to style application
+ Frontend uses Axios requests 
+ App renders in browser
+On project submission there should be 0 console.log() statements seen in the browser
+Be written with kebab-case CSS class names (e.g. this-is-the-class-name)
+Be written with semantic, camelCase JavaScript variable names
+pseudocode file in root of project repository
+ Has readme.md file at the root of repository
+ readme file clearly documents the purpose of the project as a problem statement
+ readme file clearly documents the target end user for this program.
+Using a 3rd party api
+A minimum of 90 GitHub commits 
+ 
 
-### `npm start`
+Exceeding Project Requirements
+Incorporating a new technology not taught in the program
+Your app should have one HTML page to render your react-redux application
+Use Redux middleware to respond to and modify state change
+ Project is deployed using using firebase
+ Uses React, AND Redux
+ readme file has embedded link (not url) to publicly deployed app
+ 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Presentation Requirements
+A minimum score of 1 must be met for every item below to pass.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+0 - does not meet 1 - meets 2 - exceeds
 
-### `npm test`
+Problem Statement
+ - 0 - Does not state the problem that their program solves
+ - 1 - Clearly states the problem that the application solves
+ - 2 - Describes the end-user of their application and what problems their application could solve
+Technical Problem Solution
+ - 0 - Does not state the core solution of their application
+ - 1 - Overviews the architecture of their program and how it solves the user's problems
+ - 2 - Details the architecture of their program including data structures and algorithms used to solve the problem of the user
+Technical Language
+ - 0 - Does not demonstrate accurate programming language during the presentation
+ - 1 - Uses language that demonstrates general programming concepts during presentation
+ - 2 - Uses accurate programming terminology during presentation that demonstrates work ready skills.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Meetings with instructors
+An instructor will contact you to setup a meeting time to approve your project.
 
-### `npm run build`
+You will meet with an instructor for 15 minutes to get your game idea approved. Be sure to write out what features you will need to build in order to meet MVP and some stretch goal ideas.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ 
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+How to Submit Your Project
+Submit your github link.
+You will present your project and show your code to classmates and instructors.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Where to go for help during project week
+Seek out help online
+Seek out help with your classmates
+Seek out help with our class TA
+TA Hours
 
-### `npm run eject`
+Will remain the same!
+ 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Suggested Ways to Get Started
+Wireframe Make a drawing of what your app will look like in all of the stages of the game (what does it look like as soon as you log on to the site? What does it look like while the player is playing? What does it look like when the player wins / loses?).
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Break the project down into different components (data, presentation, views, style, DOM manipulation) and brainstorm each component individually.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Commit early, commit often. Don’t be afraid to break something because you can always go back in time to a previous version.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Consult documentation resources (MDN, jQuery, etc.) at home to better understand what you’ll be getting into.
 
-## Learn More
+ (Links to an external site.)Think about...
+Creativity
+Did you add a personal spin or creative element into your project submission? Did you deliver something of value to the end user?
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Code Quality
+Did you follow code style guidance and best practices covered in class, such as spacing, indentation, modularity, and semantic naming? Did you comment your code as your instructors have in class?
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Problem Solving
+Are you able to defend why you implemented your solution in a certain way? Can you demonstrate that you thought through alternative implementations?
