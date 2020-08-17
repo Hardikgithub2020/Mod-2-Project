@@ -7,7 +7,8 @@ import { Provider } from 'react-redux';
 import {createStore} from 'redux'
 
 const initialData = { 
-  data : []
+  data : [],
+  
 };
 const reducer = (state=initialData,action)=>{
  switch(action.type){

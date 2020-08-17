@@ -10,7 +10,7 @@ function MyRouter(props) {
     <Router>
       <Link to="/">|  Home  |</Link>
       <Link to="/UnitedState">| United State |</Link>
-      <Link to="/State">|  State |</Link>
+      <Link to="/State">|  Search |</Link>
       <Switch>
         <Route path="/UnitedState" component={UnitedState} />
         <Route path="/State" component={State} />
