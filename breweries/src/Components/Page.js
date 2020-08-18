@@ -19,7 +19,6 @@ function Page(props) {
     return (
       <div key={i} className="list">
         <h1 style={{ color: "black" }}> {brewery.name} </h1>
-        <p> Id : {brewery.id} </p>
         <p>Type: {brewery.brewery_type}</p>
         <p> City : {brewery.city} </p>
         <p> Country : {brewery.country} </p>
