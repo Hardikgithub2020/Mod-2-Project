@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Page from "./Page";
 import { connect } from "react-redux";
 
-class State extends Component {
+class Search extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -39,10 +39,10 @@ class State extends Component {
     const cityName = [...new Set(data.map((brewery) => brewery.city))];
    
     const stateNameDataList=stateName.map((nameOfstate,i)=><option key={i} value={nameOfstate}/>);
-    const breweryTypeDataList=breweryType.map((type,i)=><option key={i}value={type}/>);
-    const cityDataList=cityName.map(city => <option value={city}/>);
+    const breweryTypeDataList=breweryType.map((type,i)=><option key={i} value={type}/>);
+    const cityDataList=cityName.map((city,i) => <option key={i} value={city}/>);
     return (
-      <div>
+      <div className='search-Bar'>
         <h2>Search Breweries by State, City and Brewery_type </h2>
         {/* <form onSubmit={this.fetchPosts}> */}
         State  ::
@@ -90,4 +90,4 @@ class State extends Component {
 
 const mapStateToProps = (state) => state;
 
-export default connect(mapStateToProps)(State);
+export default connect(mapStateToProps)(Search);

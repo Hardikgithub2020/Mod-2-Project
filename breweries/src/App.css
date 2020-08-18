@@ -1,13 +1,23 @@
 .App {
-  text-align: center;
+  text-align: left;
+ 
   
   
 }
 .list{
-  background-color: rgba(255, 73, 73, 0);
+  
   padding-bottom: 20px;
-  margin: 50px;
+  margin-left: 20px;
   overflow: auto;
+  
+}
+.Link{
+  font-size: xx-large;
+  font-weight: bolder;
+  margin-left: 200px;
+}
+.search-Bar{
+  margin-left: 200px;
 }
 h1{
   margin-bottom: 0px;
@@ -30,11 +40,13 @@ p {
   font-family: cursive;
   
   
+  
 }
 .main-Title {
   letter-spacing: 30px;
   font-weight: 5000;
   font-size: 80px;
+  margin-left: 200px;
  
 }
 

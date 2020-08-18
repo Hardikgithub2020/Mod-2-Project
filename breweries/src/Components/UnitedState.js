@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import Page from "./Page"
 
 class UnitedState extends React.Component {
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     fetch("https://api.openbrewerydb.org/breweries/search?query=united_state&sort=-state,-city,-type,-name")
       .then((res) => res.json())
       .then((json) => {
@@ -17,7 +17,7 @@ class UnitedState extends React.Component {
   render() {
     const { data } = this.props;
     return (
-      <div>
+      <div className='search-Bar'>
         <h3>Breweries in UnitedState</h3>
         <h3>No of Breweries : { data.length }</h3>
         <Page/>
