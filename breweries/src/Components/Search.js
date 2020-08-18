@@ -47,7 +47,7 @@ class Search extends Component {
       <div className='search-Bar'>
         <h2>Search Breweries by State, City and Brewery_type </h2>
         {/* <form onSubmit={this.fetchPosts}> */}
-        State  ::
+        <span>State  ::</span>
         <input
           list='state'
           name="stateName"
@@ -59,7 +59,7 @@ class Search extends Component {
             {stateNameDataList}
         </datalist>
         
-        ,  City  :: 
+        <span>City  </span> 
         <input
         list='cityData'
           name="cityName"
@@ -70,7 +70,7 @@ class Search extends Component {
         <datalist id='cityData'>
             {cityDataList}
         </datalist>
-        ,  Brewery_type ::
+        <span>Brewery_type </span>
         <input
           list='brewryTypeData'
           name="cityName"
