@@ -8,9 +8,9 @@ import UnitedState from "./UnitedState";
 function MyRouter(props) {
   return (
     <Router>
-      <Link to="/"style={{color:"brown"}} className='Link'>|  Home  |</Link>
-      <Link to="/UnitedState"style={{color:"brown"}} className='Link'>| United State |</Link>
-      <Link to="/Search"style={{color:"brown"}} className='Link'>|  Search |</Link>
+      <Link to="/" className='Link'>|  Home  |</Link>
+      <Link to="/UnitedState"className='Link'>| United State |</Link>
+      <Link to="/Search"className='Link'>|  Search |</Link>
       <Switch>
         <Route path="/UnitedState" component={UnitedState} />
         <Route path="/Search" component={Search} />
