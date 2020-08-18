@@ -18,7 +18,7 @@ function Page(props) {
   const listInHTML = data.map((brewery, i) => {
     return (
       <div key={i} className="list">
-        <h1 style={{ color: "greenyellow" }}> {brewery.name} </h1>
+        <h1 style={{ color: "yellow" }}> {brewery.name} </h1>
         <p> Id : {brewery.id} </p>
         <p>Type: {brewery.brewery_type}</p>
         <p> City : {brewery.city} </p>

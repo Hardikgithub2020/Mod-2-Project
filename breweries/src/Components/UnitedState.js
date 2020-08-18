@@ -25,7 +25,7 @@ class UnitedState extends React.Component {
     return (
       <div>
         <h3>Breweries in UnitedState</h3>
-        <p> No of Breweries : { data.length }</p>
+        <h3>No of Breweries : { data.length }</h3>
         <Page/>
       </div>
     );
