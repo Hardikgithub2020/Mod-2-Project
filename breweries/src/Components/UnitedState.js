@@ -1,9 +1,13 @@
 import React from "react";
 import { connect } from "react-redux";
-import Page from "./Page"
+import Page from "./Page";
+import CallUseEffect from './CallUseEffect'
+
+
 
 class UnitedState extends React.Component {
   UNSAFE_componentWillMount() {
+  
     fetch("https://api.openbrewerydb.org/breweries/search?query=united_state&sort=-state,-city,-type,-name")
       .then((res) => res.json())
       .then((json) => {
@@ -17,11 +21,13 @@ class UnitedState extends React.Component {
   render() {
     const { data } = this.props;
     return (
-      <div className='search-Bar'>
-        <h3>Breweries in UnitedState</h3>
-        <h3>No of Breweries : { data.length }</h3>
-        <Page/>
-      </div>
+      // <div className='search-Bar'>
+      //   <h3>Breweries in UnitedState</h3>
+      //   <h3>No of Breweries : { data.length }</h3>
+      //   <Page/>
+      // </div>
+      <CallUseEffect/>
+     
     );
   }
 }
