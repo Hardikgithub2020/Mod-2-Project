@@ -28,7 +28,12 @@
 }
 .search-Bar{
   margin-left: 15vw;
-  z-index: 9999;
+
+  
+}
+span{
+  font-size: x-large;
+  margin-left: 3vw;
 }
 h1{
   margin-bottom: 0px;
@@ -59,6 +64,7 @@ p {
   font-weight: 5000;
   font-size:5vw;
   margin-left: 15vw;
+  color: rgb(48, 0, 94);
  
 }
 
