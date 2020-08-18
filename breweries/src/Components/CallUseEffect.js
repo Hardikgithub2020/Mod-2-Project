@@ -9,21 +9,26 @@ const CallUseEffect = ({ dispatch, loading,data, hasErrors }) => {
     //In  useEffect, if you write any event after comma, function run every time when event happen
     useEffect(() => {
         dispatch(fetchPosts());
-    }, [dispatch]);
+        return ()=>{
+            dispatch({type :'success', payload:[]})
+        }
+    }, []);
    
     //    Show loading, error, or success fetch
     const renderData = () => {
         if (loading) {
         return <p> One Sec...Loading Data</p>;
         }
-        if (hasErrors) {
+        else if (hasErrors) {
         return <p>Unable to display Data</p>;
         }
         // if(posts === undefined){
         //     posts=[];
         // }
         // console.log(posts);
+        else{
         return <Page/>;
+        }
     };
     
     return (
