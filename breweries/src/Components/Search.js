@@ -21,6 +21,8 @@ class Search extends Component {
       })
       .catch((error) => this.props.dispatch(error));
   }
+  
+ 
 
   // handlesubmit=(e)=> {
   //         fetch("https://api.openbrewerydb.org/breweries?by_state=${e.target.value}")
