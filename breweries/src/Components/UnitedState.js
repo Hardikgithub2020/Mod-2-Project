@@ -16,12 +16,6 @@ class UnitedState extends React.Component {
 
   render() {
     const { data } = this.props;
-    const listOfState = [...new Set(data.map((brewery) => brewery.state))]; // Method used to remove allduplicate entries
-    const listOfCity = [...new Set(data.map((brewery) => brewery.city))];
-    const listOfBreweryType = [...new Set(data.map((brewery) => brewery.brewery_type)),
-    ];
-    
-
     return (
       <div>
         <h3>Breweries in UnitedState</h3>

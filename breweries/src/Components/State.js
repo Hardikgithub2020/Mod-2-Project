@@ -6,9 +6,9 @@ class State extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      stateName: " State ",
-      cityName:'City',
-      brewery_type:"Planning/Micro / Brewpub /Contract / Regional / large /Proprietor/Closed/bar",
+      stateName: '',
+      cityName:'',
+      brewery_type:'',
     };
   }
   UNSAFE_componentWillUpdate() {
@@ -33,36 +33,52 @@ class State extends Component {
   // How can i use user input for a serach
   render() {
     const { data } = this.props;
-    const listOfState = [...new Set(data.map((brewery) => brewery.state))]; // Method used to remove allduplicate entries
-    const listOfCity = [...new Set(data.map((brewery) => brewery.city))];
-    const listOfBreweryType = [...new Set(data.map((brewery) => brewery.brewery_type)),
-    ];
+    const {stateName}=this.props;
+    const {breweryType}=this.props;
+    // Method used to remove allduplicate entries
+    const cityName = [...new Set(data.map((brewery) => brewery.city))];
+   
+    const stateNameDataList=stateName.map((nameOfstate,i)=><option key={i} value={nameOfstate}/>);
+    const breweryTypeDataList=breweryType.map((type,i)=><option key={i}value={type}/>);
+    const cityDataList=cityName.map(city => <option value={city}/>);
     return (
       <div>
-        <h1>Search Breweries by State, City and Brewery_type </h1>
+        <h2>Search Breweries by State, City and Brewery_type </h2>
         {/* <form onSubmit={this.fetchPosts}> */}
-        State
+        State  ::
         <input
+          list='state'
           name="stateName"
           type="text"
           value={this.state.stateName}
           onChange={(event) => this.setState({ stateName: event.target.value })}
         />
+        <datalist id='state'>
+            {stateNameDataList}
+        </datalist>
         
-         : City
+        ,  City  :: 
         <input
+        list='cityData'
           name="cityName"
           type="text"
           value={this.state.cityName}
           onChange={(event) => this.setState({ cityName: event.target.value })}
         />
-        : Brewery_type
+        <datalist id='cityData'>
+            {cityDataList}
+        </datalist>
+        ,  Brewery_type ::
         <input
+          list='brewryTypeData'
           name="cityName"
           type="text"
           value={this.state.brewery_type}
           onChange={(event) => this.setState({brewery_type: event.target.value })}
         />
+        <datalist id="brewryTypeData">
+            {breweryTypeDataList}
+        </datalist>
         <p> No of Breweries : { data.length }</p>
         {/* <input type='submit' value='search'/> */}
         {/* </form> */}

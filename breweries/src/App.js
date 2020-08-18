@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import MyRouter from "./Components/MyRouter";
 import Header from "./Components/Header";
 
 function App() {

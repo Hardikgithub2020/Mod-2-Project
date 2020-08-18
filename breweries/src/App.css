@@ -13,16 +13,16 @@ h1{
   margin-bottom: 0px;
 }
 p {
-  color: rgb(255, 217, 0);
+  color: rgb(0, 0, 0);
   margin:0px;
   font-weight: bolder;
 }
 .main-Header{
-  background-image: url('https://www.unlawfulassembly.com/wp-content/uploads/2019/01/UABC-Planos-Award-Winning-Brewery-cropped.jpg');
+  background-image: url('https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/beveragedaily.com/article/2019/04/30/uk-craft-beer-2019-is-likely-to-be-pivotal-in-setting-our-future-direction/9335762-8-eng-GB/UK-craft-beer-2019-is-likely-to-be-pivotal-in-setting-our-future-direction.jpg');
   background-size: cover;
   height:100vh;
   background-position: center;
-  color: rgb(66, 153, 252);
+  color: rgb(0, 0, 0);
   background-attachment: fixed;
   overflow: auto;
   font-weight: bolder;
@@ -31,8 +31,10 @@ p {
   
   
 }
-.main-Header > h1 {
+.main-Title {
   letter-spacing: 30px;
-  font-size: xx-large;
+  font-weight: 5000;
+  font-size: 80px;
+ 
 }
 

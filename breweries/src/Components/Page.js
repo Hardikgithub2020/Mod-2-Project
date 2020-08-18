@@ -8,17 +8,17 @@ function Page(props) {
   // const listOfState = data.map((brewery) => brewery.state);
 
   // const stateList = listOfState.filter(e=> e!=null);
-  const listOfState = [...new Set(data.map((brewery) => brewery.state))]; // Method used to remove allduplicate entries
-  const listOfCity = [...new Set(data.map((brewery) => brewery.city))]; 
-  const listOfBreweryType = [...new Set(data.map((brewery) => brewery.brewery_type))]; 
-  console.log(listOfState,listOfCity,listOfBreweryType);
+  // const listOfState = [...new Set(data.map((brewery) => brewery.state))]; // Method used to remove allduplicate entries
+  // const listOfCity = [...new Set(data.map((brewery) => brewery.city))]; 
+  // const listOfBreweryType = [...new Set(data.map((brewery) => brewery.brewery_type))]; 
+  //console.log(listOfState,listOfCity,listOfBreweryType);
 
   // console.log('listOfstate',listOfState);
 
   const listInHTML = data.map((brewery, i) => {
     return (
       <div key={i} className="list">
-        <h1 style={{ color: "yellow" }}> {brewery.name} </h1>
+        <h1 style={{ color: "black" }}> {brewery.name} </h1>
         <p> Id : {brewery.id} </p>
         <p>Type: {brewery.brewery_type}</p>
         <p> City : {brewery.city} </p>
@@ -26,7 +26,7 @@ function Page(props) {
         <p> Phone: {brewery.phone} </p>
         <p> State : {brewery.state} </p>
         <p> Street : {brewery.street} </p>
-        <a href={brewery.website_url} style={{ color: "khaki" }}>
+        <a href={brewery.website_url} style={{ color: "black" }}>
           {" "}
           Website : {brewery.website_url}{" "}
         </a>

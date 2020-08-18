@@ -8,6 +8,8 @@ import {createStore} from 'redux'
 
 const initialData = { 
   data : [],
+  stateName :["Alabama", "Alaska", "Arizona", null, "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "District of Columbia", "Florida", "FL San", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"],
+  breweryType:["planning", "micro", "brewpub", "contract", "regional", "large", "proprietor", "closed", "bar"],
   
 };
 const reducer = (state=initialData,action)=>{
