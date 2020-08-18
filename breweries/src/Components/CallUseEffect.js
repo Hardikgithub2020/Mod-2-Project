@@ -10,7 +10,7 @@ const CallUseEffect = ({ dispatch, loading,data, hasErrors }) => {
     useEffect(() => {
         dispatch(fetchPosts());
         return ()=>{
-            dispatch({type :'success', payload:[]})
+            dispatch({type :'success',payload : []})
         }
     }, []);
    
