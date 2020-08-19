@@ -12,16 +12,19 @@
   
 }
 .Link{
-  font: size 2vw;
+  font-size :2vw;
 
   font-weight: bolder;
   margin-left: 15vw;
   margin-right: 0;
   color: rgb(255, 238, 0);
   
+  
 }
 .Link:hover{
   color: brown;
+  transform: scale(2,2);
+  
 }
 .footer>img{
   position: fixed;
@@ -77,5 +80,8 @@ p {
   margin-left: 15vw;
   color: rgb(48, 0, 94);
  
+}
+.main-Title:hover{
+  transform: scale(1,1.2);
 }
 
