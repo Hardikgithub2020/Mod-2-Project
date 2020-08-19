@@ -8,7 +8,7 @@ import UnitedStates from "./UnitedStates";
 function MyRouter(props) {
   return (
     <Router>
-      <Link to="/" className='Link' style={{marginLeft:"15vw"}}>|  Home  |</Link>
+      <Link to="/" className='Link' style={{marginLeft:"5vw"}}>|  Home  |</Link>
       <Link to="/UnitedStates"className='Link'>| United States |</Link>
       <Link to="/Search"className='Link'>|  Search |</Link>
       <Switch>
