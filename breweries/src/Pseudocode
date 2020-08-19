@@ -1,0 +1,25 @@
+Create a git repository --> Mod-2 Project
+Clone it at your root-folder
+cd Mod-2 Project
+Create React app breweries
+cd breweries
+Install all dependencies--> Redux,react-redux,Redux-thunk,Redux-Dev-Tool extension
+Define initial state with data:[]
+maked reducer with argument (state=initialState,action)
+create store
+create a provider
+Create action folder
+create action.js
+List all necessary action
+Create a functional component name CallUseEffect
+coonect with redux store 
+call fetch function and fetch data
+assign fetch data to redux state
+map data array and diaplay data
+create state component with a name search
+Put inout tage and design as a controll component
+use input value to search user data to display
+
+
+
+
