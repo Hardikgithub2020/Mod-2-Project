@@ -1,7 +1,7 @@
 # Mod-2-Project
 Problem Statement :
 
-To Search Brewerirs by city, by state and type of brewery.
+To Search Breweries by city, by state and type of brewery.
 
 Solution :
 
