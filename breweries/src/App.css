@@ -1,8 +1,16 @@
 .App {
   text-align: left;
- 
+  background-image: url('https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/beveragedaily.com/article/2019/04/30/uk-craft-beer-2019-is-likely-to-be-pivotal-in-setting-our-future-direction/9335762-8-eng-GB/UK-craft-beer-2019-is-likely-to-be-pivotal-in-setting-our-future-direction.jpg');
+  background-size: 100% 100%;
+  height:100vh;
+  background-position: center;
+  background-attachment: fixed;
+  overflow: auto;
+  font-weight: bolder;
+  position: fixed;
   
   
+  font-family: cursive; 
 }
 .list{
   
@@ -18,6 +26,7 @@
   margin-left: 10vw;
   margin-right: 0;
   color: rgb(255, 238, 0);
+  z-index:9999;
   
   
 }
@@ -27,12 +36,13 @@
   
 }
 .footer>img{
-  position: fixed;
-  margin-left: 15vw;
-  width:15vw;
+  position: relative;
+ 
+  width:100vw;
+ 
   height: 100vh;
   opacity: 0.3;
-  left:-15vw;
+  left:0;
   top:0;
 }
 .search-Bar{
@@ -57,18 +67,16 @@ p {
   color: aliceblue;
 }
 .main-Header{
-  position: relative;
-  background-image: url('https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/beveragedaily.com/article/2019/04/30/uk-craft-beer-2019-is-likely-to-be-pivotal-in-setting-our-future-direction/9335762-8-eng-GB/UK-craft-beer-2019-is-likely-to-be-pivotal-in-setting-our-future-direction.jpg');
-  /* background-image: url("https://www.verdict.co.uk/wp-content/uploads/2017/01/tumblr_nsijgpoxX01ur7mdeo1_500.gif"); */
-  background-size: 100% 100%;
-  height:100vh;
-  background-position: center;
-  color: rgb(0, 0, 0);
-  background-attachment: fixed;
-  overflow: auto;
-  font-weight: bolder;
   
-  font-family: cursive;
+  background-color: none;
+  position: absolute;;
+  left: 0;
+  top:0;
+  overflow: auto;
+  
+
+  /* background-image: url("https://www.verdict.co.uk/wp-content/uploads/2017/01/tumblr_nsijgpoxX01ur7mdeo1_500.gif"); */
+ 
   
   
   
