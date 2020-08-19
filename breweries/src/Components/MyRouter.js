@@ -2,17 +2,17 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route,Link } from "react-router-dom";
 
 import Search from "./Search";
-import UnitedState from "./UnitedState";
+import UnitedStates from "./UnitedStates";
 
 
 function MyRouter(props) {
   return (
     <Router>
       <Link to="/" className='Link'>|  Home  |</Link>
-      <Link to="/UnitedState"className='Link'>| United State |</Link>
+      <Link to="/UnitedStates"className='Link'>| United States |</Link>
       <Link to="/Search"className='Link'>|  Search |</Link>
       <Switch>
-        <Route path="/UnitedState" component={UnitedState} />
+        <Route path="/UnitedStates" component={UnitedStates} />
         <Route path="/Search" component={Search} />
         <Route path="/" />
       </Switch>
