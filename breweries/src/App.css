@@ -18,6 +18,9 @@
   color: rgb(255, 238, 0);
   
 }
+.Link:hover{
+  color: brown;
+}
 .footer>img{
   position: fixed;
   margin-left: 15vw;
