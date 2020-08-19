@@ -47,7 +47,7 @@ class Search extends Component {
       <div className='search-Bar'>
         <h2>Search Breweries by State, City and Brewery_type </h2>
         {/* <form onSubmit={this.fetchPosts}> */}
-        <span>State  ::</span>
+        <span>State  </span>
         <input
           list='state'
           name="stateName"
