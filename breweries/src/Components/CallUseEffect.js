@@ -34,7 +34,7 @@ const CallUseEffect = ({ dispatch, loading,data, hasErrors }) => {
     return (
         <section>
         <div className='search-Bar'>
-        <h1>Breweries in UnitedState</h1>
+        <h1>Breweries in UnitedStates</h1>
         <h3>No of Breweries : { data.length }</h3>
         {renderData()}
         </div>
