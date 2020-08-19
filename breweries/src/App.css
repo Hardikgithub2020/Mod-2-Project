@@ -37,7 +37,7 @@
   
 }
 .Link{
-  font-size :4vw;
+  font-size :3vw;
 
   font-weight: bolder;
   margin-left: 6vw;
@@ -71,6 +71,7 @@
 span{
   font-size: x-large;
   margin-left: 2vw;
+  color: darkgoldenrod;
 }
 h1{
   margin-bottom: 0px;
@@ -87,7 +88,7 @@ p {
 }
 input:hover{
 
- background-color: rgb(123, 127, 128);
+ background-color: rgb(173, 255, 237);
 
 }
 a:hover{
