@@ -25,10 +25,10 @@ function Page(props) {
         <p> State : {brewery.state} </p>
         <p> Country : {brewery.country} </p>
         <p> Phone: {brewery.phone} </p>
-        <p></p><a href={brewery.website_url} style={{ color: "black" }}>
-          {" "}
-          Website : {brewery.website_url}{" "}
-        </a><p/>
+        <p><a href={brewery.website_url} >
+          
+          Website : {brewery.website_url}
+        </a></p>
       </div>
     );
   });
