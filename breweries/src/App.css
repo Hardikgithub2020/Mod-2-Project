@@ -1,4 +1,11 @@
-.App {
+.App{
+  
+    margin: 0;
+    padding: 0;
+  
+  
+}
+.main-Header{
   text-align: left;
   background-image: url('https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/beveragedaily.com/article/2019/04/30/uk-craft-beer-2019-is-likely-to-be-pivotal-in-setting-our-future-direction/9335762-8-eng-GB/UK-craft-beer-2019-is-likely-to-be-pivotal-in-setting-our-future-direction.jpg');
   background-size: 100% 100%;
@@ -7,10 +14,9 @@
   background-attachment: fixed;
   overflow: auto;
   font-weight: bolder;
-  position: fixed;
-  
-  
   font-family: cursive; 
+  overflow: auto;
+  /* background-image: url("https://www.verdict.co.uk/wp-content/uploads/2017/01/tumblr_nsijgpoxX01ur7mdeo1_500.gif"); */ 
 }
 .list{
   
@@ -36,19 +42,29 @@
   
 }
 .footer>img{
-  position: relative;
- 
-  width:100vw;
- 
-  height: 100vh;
-  opacity: 0.3;
+ position: absolute;
   left:0;
   top:0;
-}
-.search-Bar{
-  margin-left: 15vw;
-
+  width: 15vw;
+  height: 100vh;
+  overflow: auto;
+  opacity: 0.3;
   
+}
+.main-Title {
+  letter-spacing: 3vw;
+  font-weight: bolder;
+  font-size:6vw;
+  margin-left: 15vw;
+  color: rgb(48, 0, 94);
+ 
+}
+.main-Title:hover{
+  transform: scale(1,1.2);
+}
+
+.search-Bar{
+  margin-left: 15vw;  
 }
 span{
   font-size: x-large;
@@ -66,30 +82,6 @@ p {
   font-size: large;
   color: aliceblue;
 }
-.main-Header{
-  
-  background-color: none;
-  position: absolute;;
-  left: 0;
-  top:0;
-  overflow: auto;
-  
 
-  /* background-image: url("https://www.verdict.co.uk/wp-content/uploads/2017/01/tumblr_nsijgpoxX01ur7mdeo1_500.gif"); */
- 
-  
-  
-  
-}
-.main-Title {
-  letter-spacing: 3vw;
-  font-weight: 5000;
-  font-size:6vw;
-  margin-left: 15vw;
-  color: rgb(48, 0, 94);
- 
-}
-.main-Title:hover{
-  transform: scale(1,1.2);
-}
+
 
