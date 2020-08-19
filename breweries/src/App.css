@@ -18,6 +18,16 @@
   overflow: auto;
   /* background-image: url("https://www.verdict.co.uk/wp-content/uploads/2017/01/tumblr_nsijgpoxX01ur7mdeo1_500.gif"); */ 
 }
+.footer>img{
+  position: absolute;
+   left:0;
+   top:90vh;
+   width: 100vw;
+   height: 10vh;
+   overflow: auto;
+   opacity: 0.3;
+   
+ }
 .list{
   
   padding-bottom: 20px;
@@ -41,16 +51,7 @@
   
   
 }
-.footer>img{
- position: absolute;
-  left:0;
-  top:0;
-  width: 15vw;
-  height: 100vh;
-  overflow: auto;
-  opacity: 0.3;
-  
-}
+
 .main-Title {
   letter-spacing: 3vw;
   font-weight: bolder;
