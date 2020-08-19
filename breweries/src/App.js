@@ -6,7 +6,7 @@ import User from "./Components/User"
 function App() {
   return (
     <div className="App">
-      <User/>
+      
       <Header />
     </div>
   );
