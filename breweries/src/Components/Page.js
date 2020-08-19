@@ -20,15 +20,15 @@ function Page(props) {
       <div key={i} className="list">
         <h1> {brewery.name} </h1>
         <p>Type: {brewery.brewery_type}</p>
+        <p> Street : {brewery.street} </p>
         <p> City : {brewery.city} </p>
+        <p> State : {brewery.state} </p>
         <p> Country : {brewery.country} </p>
         <p> Phone: {brewery.phone} </p>
-        <p> State : {brewery.state} </p>
-        <p> Street : {brewery.street} </p>
-        <a href={brewery.website_url} style={{ color: "black" }}>
+        <p></p><a href={brewery.website_url} style={{ color: "black" }}>
           {" "}
           Website : {brewery.website_url}{" "}
-        </a>
+        </a><p/>
       </div>
     );
   });
